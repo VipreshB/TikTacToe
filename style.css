@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00A8E8;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vmin;
+    width: 60vmin;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15%;
+    border: none;
+    box-shadow: 0 0 0.8rem #003459;
+    font-size: 8vmin;
+    color: #ff00c8;
+    background-color: #c7ed60;
+}
+
+#new-btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #003459;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#msg {
+    color: antiquewhite;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+}
+
+.mute-btn {
+    margin-top: 15px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #00345973;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+.play-audio-btn {
+    margin-top: 14px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+
+.play-audio-btn:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+    transition: 0.3s ease-in-out;
+}
+
+#play-audio-btn {
+    margin-top: 14px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#play-audio-btn:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+    transition: 0.3s ease-in-out;
+}
